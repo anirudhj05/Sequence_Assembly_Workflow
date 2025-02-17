@@ -8,10 +8,10 @@ This Nextflow pipeline automates the process of trimming sequencing reads and as
 
 ## Setup
 - Clone the repository:
-  ```bash
-  https://github.com/anirudhj05/Sequence_Assembly_Workflow.git
-  cd Sequence_Assembly_Workflow
-  ```
+```bash
+https://github.com/anirudhj05/Sequence_Assembly_Workflow.git
+cd Sequence_Assembly_Workflow
+```
 - Environment Setup: The repository contains an environment.yml file which can be used to install the dependencies needed to run this pipeline. Use this file and create a conda environment.
 ```bash
 conda env create -f environment.yml
@@ -48,8 +48,8 @@ skesa --fastq $fwd_trimmed $rev_trimmed --contigs_out ${sample_name}_contigs.fas
 - Running the pipeline: To run the pipeline, use the following command:
 ```bash
  nextflow run main.nf --fastqPath 'raw_data/*_{1,2}.fastq.gz'
- This command runs the main.nf file from the terminal
  ```
+This command runs the main.nf file from the terminal
 ```bash
  grep -c '>' *.fasta # The grep command was used to find out how many contigs were there
  ```
