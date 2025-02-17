@@ -1,0 +1,16 @@
+TrimmomaticPE: Started with arguments:
+ -phred33 SRR19965991_1.fastq.gz SRR19965991_2.fastq.gz SRR19965991_trimmed_R1.fastq.gz SRR19965991_trimmed_R1_unpaired.fastq.gz SRR19965991_trimmed_R2.fastq.gz SRR19965991_trimmed_R2_unpaired.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:30 MINLEN:36
+Multiple cores found: Using 4 threads
+java.io.FileNotFoundException: /home/anirudhj05/biol7210/nextflow_assignment1/work/93/af2183b67c26cfe834bfffba99cfef/TruSeq3-PE.fa (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:552)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Input Read Pairs: 136750 Both Surviving: 115332 (84.34%) Forward Only Surviving: 7404 (5.41%) Reverse Only Surviving: 7880 (5.76%) Dropped: 6134 (4.49%)
+TrimmomaticPE: Completed successfully

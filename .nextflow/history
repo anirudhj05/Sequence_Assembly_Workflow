@@ -1,0 +1,23 @@
+2024-02-20 19:39:19	-	condescending_ptolemy	-	314eb0252dc9af0e79e2471e2315a892	58739267-7e60-44a7-b7aa-125dcac4684c	nextflow run main.nf
+2024-02-20 19:39:48	-	deadly_visvesvaraya	-	8b68dd7f1833dd3da534dbf8a4c7e81d	4caba506-9d47-45e8-8aba-fedcecda50f1	nextflow run main.nf
+2024-02-20 19:42:11	-	magical_boyd	-	148d2e3725748f6617d70ad20869d32c	465d44db-5dc6-4bf9-a16d-942ef2040f0e	nextflow run main.nf
+2024-02-20 19:44:23	-	chaotic_lamport	-	3b551d16d8fc082451c0e7387e3e703e	e6551a6b-507e-44b3-9c93-be05e65a8361	nextflow run main.nf
+2024-02-20 19:46:04	-	gigantic_saha	-	f4502443357e01953b2f10a20e376e68	33a59b13-7c6f-44e6-a129-6b6a49217828	nextflow run main.nf
+2024-02-20 19:48:16	-	wise_magritte	-	7f9f52936c62991047d94935eeb00aeb	5ca2153a-0d1b-4813-a08a-584282703337	nextflow run main.nf
+2024-02-20 19:49:56	2.6s	grave_brenner	OK	29db6c87a2aab91d7eaa325dddd4e14b	37cbacc8-b8e0-4a75-a4a6-e68c3c5324cb	nextflow run main.nf
+2024-02-20 19:52:20	2.6s	evil_carson	OK	4acab00ab8e6959716a515b41ace6a8b	4f6dbf0a-88e6-4a35-90ce-cba0c13e1e94	nextflow run main.nf
+2024-02-20 19:59:11	1.7s	prickly_ramanujan	OK	4acab00ab8e6959716a515b41ace6a8b	34db0751-964d-4e44-b8db-58cb966fab6e	nextflow run main.nf
+2024-02-20 20:01:03	2.4s	goofy_williams	OK	4acab00ab8e6959716a515b41ace6a8b	3c081b9d-bce3-4dc6-b913-0cab8eb28325	nextflow run main.nf --reads 'raw_data/*_{R1,R2}.fastq.gz'
+2024-02-20 20:02:06	1.8s	high_jepsen	OK	4acab00ab8e6959716a515b41ace6a8b	874664d5-9b30-4c94-8016-5c0ecde176db	nextflow run main.nf --reads 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 20:05:35	6.6s	lonely_watson	OK	4acab00ab8e6959716a515b41ace6a8b	1c41feab-5486-49d4-8226-ebdbe4f0681f	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 20:29:02	12s	pedantic_ptolemy	OK	4acab00ab8e6959716a515b41ace6a8b	99a8d360-7249-4802-b1fc-5f97ef2c8653	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:22:48	-	wise_brahmagupta	-	620651a90f89fd2882dc6d759db0d511	9052d764-2588-4cd8-9309-142e8ad5ed8c	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:24:59	-	pensive_leavitt	-	b0c98565dcb41c405fc2c3c5f08ca845	6d98fdc8-4c9e-4c3f-b162-855d0e43c0c6	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:31:34	-	backstabbing_bhabha	-	d532fa5021c628ffe7f730580dba64e1	1dac31ee-338e-4028-bb0d-cf52b998d76e	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:33:13	-	reverent_goodall	-	3d830a733661dfe7bb9a7165a30fd9df	a9889b2d-696b-4593-bc0d-0a87a53e0047	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:34:40	-	thirsty_hugle	-	428d332a4a4207caf7e629bb199123c0	b3089cf0-8332-4456-9347-54acda88a1c7	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:35:11	-	intergalactic_gauss	-	2a53a4e4da2f32046b7a41f9200af1f3	f2135adb-e189-458a-8363-468713a776ab	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:36:23	-	crazy_borg	-	a9147c8772557212908063566fb2212b	bb727c27-88fa-473f-b053-e16f920d5731	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:38:10	1.9s	special_wozniak	OK	9cb9cac2a4521f50bc0319fe304dd155	462e2d03-550a-4fa5-af90-b5a9083db347	nextflow run main.nf --readPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:38:36	2.4s	disturbed_cori	ERR	9cb9cac2a4521f50bc0319fe304dd155	8ac4f098-848f-4af2-b27a-6b3e2b60204b	nextflow run main.nf --fastqPath 'raw_data/*_{1,2}.fastq.gz'
+2024-02-20 22:40:45	8.9s	cheeky_linnaeus	OK	a29ba3fa818447d7baf6cb490d97f0f4	1ffff7e3-13b7-49fc-8a5a-634e8beab1aa	nextflow run main.nf --fastqPath 'raw_data/*_{1,2}.fastq.gz'
