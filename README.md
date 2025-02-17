@@ -1,5 +1,16 @@
-## nextflow_assignment1
-This is the repository for the first nextflow assignment which involves trimming and assembling a fastqz file
+# Nextflow Pipeline for bacterial genome read cleaning and gene assembly
+
+This Nextflow pipeline automates the process of trimming sequencing reads and assembling them into contigs. It utilizes Trimmomatic for read trimming and SKESA for genome assembly. The pipeline is designed to handle paired-end sequencing reads and is structured to be modular and easy to configure with user-defined parameters.
+
+## Prerequisites
+- **Nextflow**: Ensure Nextflow is installed on your system. You can install it by running `curl -s https://get.nextflow.io | bash` and then moving the Nextflow binary to a directory in your `$PATH`.
+- Conda: A Conda environment is recommended for managing the software dependencies. Install Miniconda from Miniconda's site if it is not already installed.
+
+## Setup
+- Clone the repository:
+  ```bash
+  
+
 
 I have downloaded SRR19965991 from NCBI using fasterq-dump \
  SRR19965991 
